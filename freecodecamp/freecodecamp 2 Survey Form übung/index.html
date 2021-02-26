@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tab title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">The Titlé (thats spatalian)</h1>
+        <p id="description">Here lies a small explanation or a description, im not sure jet. But the id says description, so well....</p>
+    </header>
+
+    <form id="survey-form" action="">
+        <div>
+            <div>
+                <label id="name-label" for="name">Type in your name here:</label>
+                <input id="name" type="text" name="name" placeholder="name">
+            </div>
+            <div>
+                <label id="email-label" for="email-label">Type your email adress:</label>
+                <input id="email" type="email" name="email" placeholder="example@email.com">
+            </div>
+            <div>
+                <label id="number-label" for="number">Type a number. Maybe your age? if that´s not to personal.</label>
+                <input id="number" type="number" name="number" placeholder="age?" min="0" max="130">
+            </div>
+            <div>
+                <label id="dropdown" for="gender">
+                    If i would have to assume your gender, what would it be?
+                    <select name="gender" aria-hidden="true" >
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="nonbinary">nonbinary</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <div>
+            <p>Next I need your eyecolor:</p>
+            <div>
+                <input id="brown" type="radio" name="eyecolor" value="brown" checked>
+                <label for="brown">brown</label>
+            </div>
+            <div>
+                <input id="green" type="radio" name="eyecolor" value="green">
+                <label for="green">green</label>
+            </div>
+            <div>
+                <input id="blue" type="radio" name="eyecolor" value="blue">
+                <label for="blue">blue</label>
+            </div>
+            <div>
+                <input id="other" type="radio" name="eyecolor" value="other">
+                <label for="other">other color</label>
+            </div>
+        </div>
+
+        <div>
+            <p>Ok now, whats your type of music?</p>
+            <div>
+                <input type="checkbox" value="rock">
+                <label for="rock">Rock</label>
+            </div>
+            <div>
+                <input type="checkbox" value="pop">
+                <label for="pop">Pop</label>
+            </div>
+            <div>
+                <input type="checkbox" value="goa">
+                <label for="goa">Goa</label>
+            </div>
+            <div>
+                <input type="checkbox" value="classic">
+                <label for="classic">Classic</label>
+            </div>
+            <div>
+                <input type="checkbox" value="none">
+                <label for="none">I dont hear music, I´m weird</label>
+            </div>
+
+        </div>
+        <div>
+            <p>Here you have the once in a lifetime chance to tell your best joke: </p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button id="submit">Submit the formular to your neigborhood.</button>
+    </form>
+</body>
+
+</html>

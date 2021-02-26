@@ -1,0 +1,57 @@
+:root {
+    --bg_light: #72a145;
+    --bg_dark: #496d28;
+}
+
+body {
+    background-color: #2e6d152a;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: var(--bg_dark);
+    height: 6em;
+    width: 82%;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    margin: 2em;
+}
+
+#survey-form {
+    background-color: var(--bg_light);
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 20px;
+    padding: 20px 1em 20px 1em;
+}
+
+#survey-form div {
+    background-color: var(--bg_dark);
+    margin: 30px 2em 0 2em;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+button,
+textarea {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.5em;
+    height: 2em;
+    padding-top: 0.2em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 70%;
+    height: 4em;
+    margin-bottom: 1em;
+}
